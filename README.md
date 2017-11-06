@@ -21,3 +21,39 @@ Agregar el css a styles.css
 
 crear un modulo relacionado con el modulo principal app con el siguiente comando
 ng generate module material --module app
+
+----------------------------------------------
+----SE TERMINA LA INSTALACIÓN DE MATERIAL-----
+----------------------------------------------
+
+Generar nuevo componente dentro de la carpeta material
+ng generate component material/material-demo --module material
+
+borramos el contenido de app.component.html
+editamos el app-routing.module.ts
+dentro de routing ponemos 
+  {
+    path: 'material-demo',
+    component: MaterialDemoComponent
+  }
+  tabien realizamos el import 
+  import {MaterialDemoComponent} from './material/material-demo/material-demo.component';
+  luego de eso se debe ver el modulo agregando material-demo a la url
+
+  en el modulo material agregar lo siguiente
+  import {MatToolbarModule} from '@angular/material';
+
+  luego en la parte de imports y antes de declarations se agrega esto
+  exports: [
+    MatToolbarModule
+  ],
+
+  En el app.component.html se pone lo siguiente
+  <mat-toolbar color="primary">
+    <span>Primera vez con Material</span>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+
+con eso se tiene una toolbar
+
