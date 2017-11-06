@@ -16,3 +16,7 @@ y se agrega al Ngmodule el BrowserAnimationsModule
 Soporte para iconos en el index.html
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+Agregar el css a styles.css
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
