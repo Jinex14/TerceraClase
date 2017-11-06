@@ -19,4 +19,5 @@ Soporte para iconos en el index.html
 Agregar el css a styles.css
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-
+crear un modulo relacionado con el modulo principal app con el siguiente comando
+ng generate module material --module app
