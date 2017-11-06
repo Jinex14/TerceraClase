@@ -12,3 +12,7 @@ npm install --save @angular/animations
 se debe agregar esta linea en el app module 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 y se agrega al Ngmodule el BrowserAnimationsModule
+
+Soporte para iconos en el index.html
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
