@@ -51,9 +51,11 @@ dentro de routing ponemos
   En el app.component.html se pone lo siguiente
   <mat-toolbar color="primary">
     <span>Primera vez con Material</span>
-</mat-toolbar>
-
-<router-outlet></router-outlet>
+    </mat-toolbar>
 
 con eso se tiene una toolbar
+
+para agregar botones se va modulo material
+import {MatToolbarModule, MatButtonModule} from '@angular/material';
+tambien en el import y en el export
 
