@@ -49,9 +49,9 @@ dentro de routing ponemos
   ],
 
   En el app.component.html se pone lo siguiente
- -- <mat-toolbar color="primary">
-  --  <span>Primera vez con Material</span>
-   -- </mat-toolbar>
+ mat-toolbar color="primary">
+  span>Primera vez con Material /span>
+  /mat-toolbar>
 
 con eso se tiene una toolbar
 
